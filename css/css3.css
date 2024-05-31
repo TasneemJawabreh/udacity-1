@@ -19,6 +19,30 @@ button:hover, a:hover {
     border-radius: 30%;
   }
 .image{
-  width:100%;
-  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+blockquote {
+  font-style: italic;
+  color: #474747;
+  font-size: 1em;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 2em;
+  color: #474747;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 2em;
+  color: #474747;
+}
+.image1{
+  vertical-align: middle;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
